@@ -1,7 +1,7 @@
 def bubble_sort(arr)
   k = 1
   sorted = true
-  for i in 0..arr.length - 1  do
+  for _i in 0..arr.length - 1  do
     for i in 0..arr.length - k do
       if arr[i+1] && arr[i] > arr[i+1]
         arr[i], arr[i+1] = arr[i+1], arr[i]
